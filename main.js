@@ -29,3 +29,20 @@ let isOver18 = true;
 console.log("über 18?", isOver18);
 let age = 17 ;
 console.log ("age über 18", age > 18);
+
+let zahlenliste = [2, 11,24,33];
+console.log(zahlenliste);
+let namensliste = [ "Jane", "John"];
+console.log(namensliste[2]);
+console.log("Anzahl der Namen: ", namensliste.length);
+
+let benutzer = {
+    vorname: "Jane",
+    nachname: "Doe",
+    alter: 28
+};
+console.log("Benutzer Alter: ", benutzer.alter);
+benutzer.bestzeit = 200;
+console.log(benutzer);
+benutzer["bestzeit ever"] = 100;
+console.log(benutzer);
